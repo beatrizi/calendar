@@ -33,10 +33,14 @@ function load() {
     }
   
     const day = dayTodayIs.getDate();
+    console.log(day);
+    
     const month = dayTodayIs.getMonth();
     const year = dayTodayIs.getFullYear();
-  
+  //console.log(day, month, year);
+
     const firstDayOfMonth = new Date(year, month, 1); 
+    
     const daysInMonth = new Date(year, month + 1, 0).getDate();
     
     const dateString = firstDayOfMonth.toLocaleDateString('en-us', {
