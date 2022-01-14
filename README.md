@@ -1,15 +1,7 @@
-# calendar
-Calendar
-//html
-    header
-    container
+# H1 📅 Calendar
 
-//js
-// create a list with number of the months
-    //list ali
-// create a list with number of the days
-    // array for each =>31 day
+🍾Happy new year🎉🎉
 
-//css
-    basic
-    try bootstrap
+
+If yu need to see what day is today visit [this calendar(click on here).](https://beatrizi.github.io/calendar/)
+

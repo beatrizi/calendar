@@ -9,5 +9,13 @@
     background-color: aquamarine;
 }
 body{
+    color:beige;
     background: url('https://cdn.pixabay.com/photo/2017/11/07/20/43/christmas-tree-2928142_960_720.jpg'); 
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: cover;
+
+
+
+
 }
