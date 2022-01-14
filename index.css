@@ -1,14 +1,46 @@
-body{
-font-family: sans-serif;  
-background: url('https://cdn.pixabay.com/photo/2017/11/07/20/43/christmas-tree-2928142_960_720.jpg'); 
-background-size: cover;
-background-position: center;
-min-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 0;
-padding: 0;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("https://cdn.pixabay.com/photo/2017/11/07/20/43/christmas-tree-2928142_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.date {
+  background: white;
+  position: relative;
+  text-align: center;
+  border-radius: 15px;
+  width: 180px;
 }
 
-
+.date #month {
+  position: relative;
+  padding: 5px 10px;
+  background: maroon;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+.date #dayName {
+  color: grey;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.date #dayNumber {
+  color: black;
+  margin: 0px;
+  font-size: 80px;
+  font-weight: 800;
+}
+.date #year {
+  color: grey;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
